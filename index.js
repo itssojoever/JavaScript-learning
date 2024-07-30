@@ -25,3 +25,20 @@ console.log(person.name);
 //Bracket notation
 person['name'] = 'Jane';
 console.log(person.name);
+
+
+//Arrays: store a list of items
+let availableColours = ['red', 'green'];
+availableColours[2] = 'blue';
+console.log(availableColours);
+console.log(availableColours.length);
+
+//Functions
+
+function hello(name) {
+    alert(`Hi, this is an alert. Hello ${name}. Very swag very cool`);
+}
+
+let firstName = prompt('What is your name?');
+
+hello(firstName);
