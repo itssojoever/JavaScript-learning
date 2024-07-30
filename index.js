@@ -42,3 +42,7 @@ function hello(name) {
 let firstName = prompt('What is your name?');
 
 hello(firstName);
+
+
+//Manipulating HTML with JavaScript
+document.getElementById('p1').textContent = `Your name is ${firstName}`;
