@@ -1,0 +1,24 @@
+#counter {
+    display:block;
+    text-align:center;
+    font-size: 10em;
+    font-family: Helvetica;
+}
+
+#buttonContainer {
+    text-align: center;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: blue;
+}
