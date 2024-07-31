@@ -46,3 +46,76 @@ hello(firstName);
 
 //Manipulating HTML with JavaScript
 document.getElementById('p1').textContent = `Your name is ${firstName}`;
+
+//Math object
+
+x = 3.99
+y = 3.99
+z = 3.99
+
+//Round number
+Math.round(x)
+
+//Rounds number down
+Math.floor(y)
+
+//Rounds number up
+Math.ceil(z)
+
+//Truncate: remove decimals
+Math.trunc(z)
+
+//Square root function
+x = 3
+squareRoot = Math.sqrt(x)
+console.log(squareRoot)
+
+//Find the highest value
+x = 3
+y = 7
+z = 143131
+
+let max = Math.max(x, y, z)
+console.log(max)
+
+//If statements
+
+superDuperSecretPassword = "bananas"
+passwordPrompt = prompt("Enter the password:")
+
+if (passwordPrompt == superDuperSecretPassword){
+    console.log("Correct")
+}
+else {
+    console.log("VERY SAD!")
+}
+
+//Switches
+
+let day = 3
+
+switch(day){
+    case 1:
+        day = "Monday";
+        break;
+    case 2:
+        day = "Tuesday";
+        break;
+    case 3:
+        day = "Wednesday";
+        break;
+    case 4:
+        day = "Thursday";
+        break;
+    case 5:
+        day = "Friday";
+        break;
+    case 6:
+        day = "Saturday";
+        break;
+    case 7:
+        day = "Sunday";
+        break;
+}
+
+console.log(`Today is ${day}`)
