@@ -145,3 +145,13 @@ if (age >= 18 ){
 else {
     console.log("You are not over 18")
 }
+
+//Checkbox
+
+const myCheckbox = document.getElementById("myCheckbox");
+
+myCheckbox.onclick = function() {
+    if(myCheckbox.checked){
+        console.log("SPAMMING CONSOLE WEEEEEEEEEEEEEEEEEEE")
+    }
+}
