@@ -121,16 +121,27 @@ switch(day){
 console.log(`Today is ${day}`)
 
 //While loop
-running = 5
+let running = 5
 while(running){
     console.log(running)
     running--
 }
 
-running2 = 5
+let running2 = 5
 
 //Do while loop. Evaluates if running2 is True only after having run the loop for one time.
 do{
     console.log(running2)
     running2--
 }while (running2)
+
+
+//If statements
+let age = 23;
+
+if (age >= 18 ){
+    console.log("You are over 18")
+}
+else {
+    console.log("You are not over 18")
+}
