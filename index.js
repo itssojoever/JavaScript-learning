@@ -155,3 +155,43 @@ myCheckbox.onclick = function() {
         console.log("SPAMMING CONSOLE WEEEEEEEEEEEEEEEEEEE")
     }
 }
+
+//Switch demonstration #2
+
+let testScore = 68;
+let letterGrade;
+
+switch(true){
+    case testScore >= 90:
+        letterGrade = "A";
+        break;
+    case testScore >= 80:
+        letterGrade = "B";
+        break;
+    case testScore >= 70:
+        letterGrade = "C";
+        break;
+    case testScore >= 60:
+        letterGrade = "D";
+        break;
+    default:
+        letterGrade = "F"
+}
+
+//Logical operators
+// AND = &&
+// NOT = !
+// OR = ||
+
+//Equal sign thingies
+// = assignment operator
+// == comparison operator (checks if values are equal)
+// === strict equality operator (checks if both values and datatype are equal)
+// != inequality operator
+// !== strict inequality operator
+
+//For loops. Initialise variable (i), then set the condition, then increment or decrement according to the condition
+
+for (let i = 10; i > 1; i--){
+    console.log(i);
+}
